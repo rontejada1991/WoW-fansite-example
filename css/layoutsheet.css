@@ -1,0 +1,50 @@
+/* This sheet is solely focusing on page layout,
+	for styling, look at stylesheet.css
+	
+	This page uses a fixed layout
+	
+*/
+
+body {
+	width: 1200px;
+	margin: 0 auto;}
+
+#logo, #toTop {
+	margin-left: auto;
+	margin-right: auto;}
+
+#logo {
+	display: block;
+	padding: 10px;}
+
+.nav {
+	padding: 10px;
+	margin: 10px auto;}
+
+.navLink {
+	border: 5px inset gold;
+	padding: 10px;
+	margin-left: 10px;
+	margin-right: 10px;}
+
+#col1, #col2 {
+	width: 500px;}
+
+#col1 {
+	float: left;}
+	
+#col2 {
+	float: right;}
+	
+.content {
+	width: 450px;
+	border: black solid;
+	border-radius: 25px;
+	padding: 15px;}
+
+.footer {
+	clear: both;}
+	
+#toTop {
+	margin: 0 auto 25px auto;
+	display: block;}

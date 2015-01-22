@@ -1,0 +1,43 @@
+/* This sheet is solely focusing on aesthetics
+	for layout styling, look at layoutsheet.css
+*/
+@font-face {
+	font-family: GoodDog;
+	src: url(../fonts/GoodDog.otf);}
+
+@font-face {
+	font-family: Walkway;
+	src: url(../fonts/Walkway.ttf);}
+
+body {
+	background: url("../images/background.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-color: black;}
+
+.nav {
+	text-align: center;}
+
+.navLink {
+	font-family: GoodDog;
+	font-size: 40px;
+	background-color: #ffb347;
+	text-decoration: none;
+	color: black;
+	text-align: center;}
+
+a.navLink:hover {
+	background-color: gold;
+	border-style: outset;
+	border-color: #ffb347;}
+
+a.navLink:active {
+	background-color: #ffb347;
+	border-style: inset;
+	border-color: gold;}
+
+.content {
+	background-color: rgba(211, 211, 211, 0.85);
+	font-family: Walkway;
+	text-align: center;}
